@@ -1,0 +1,17 @@
+[build]
+  publish = "."
+  command = "node build.js"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[build.environment]
+  FIREBASE_API_KEY = "AIzaSyBuTGZNPixbNBm3SlTF4gzq8i2oiWXRqFs"
+  FIREBASE_AUTH_DOMAIN = "scan-chain.firebaseapp.com"
+  FIREBASE_PROJECT_ID = "scan-chain"
+  FIREBASE_STORAGE_BUCKET = "scan-chain.firebasestorage.app"
+  FIREBASE_MESSAGING_SENDER_ID = "1066253647110"
+  FIREBASE_APP_ID = "1:1066253647110:web:dcc58a2a898cf1fbf07287"
+  FIREBASE_MEASUREMENT_ID = "G-NJRKZS9J14"
